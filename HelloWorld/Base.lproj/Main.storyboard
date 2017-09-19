@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HelloWorld" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DwW-Uf-cUe">
+                                <rect key="frame" x="96" y="188" width="222" height="38"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Now let's get it!">
+                                        <attributes>
+                                            <color key="NSColor" red="0.79857248067855835" green="0.44112614966739988" blue="0.34635893621454311" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="24" name="Papyrus"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3GV-VZ-fdc">
+                                <rect key="frame" x="16" y="93" width="382" height="61"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="61" id="wez-Lx-sR7"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Hi,dear!Have a nice day!">
+                                        <attributes>
+                                            <color key="NSColor" red="0.99936980009078979" green="0.58273281205730432" blue="0.43518033310283466" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="24" name="Papyrus"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" usesAttributedText="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wjM-Xx-imf">
+                                <rect key="frame" x="-6" y="198" width="427" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="427" id="Jqh-yr-Y38"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Hi,dear!Have a nice day!">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="NSColor" red="1" green="0.55024250645830342" blue="0.33178581349728442" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="48" name="Papyrus"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5Fu-wI-j5r">
+                                <rect key="frame" x="137" y="258" width="140" height="49"/>
+                                <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="140" id="B85-bo-paA"/>
+                                    <constraint firstAttribute="height" constant="47" id="bY1-VI-OT4"/>
+                                </constraints>
+                                <color key="tintColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Start">
+                                            <attributes>
+                                                <font key="NSFont" size="36" name="MarkerFelt-Thin"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="5Fu-wI-j5r" secondAttribute="bottom" constant="421" id="1No-i0-5aU"/>
+                            <constraint firstItem="DwW-Uf-cUe" firstAttribute="top" secondItem="3GV-VZ-fdc" secondAttribute="bottom" constant="62" id="8lX-lW-37j"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="wjM-Xx-imf" secondAttribute="bottom" constant="532" id="Fyo-rA-Kfd"/>
+                            <constraint firstItem="5Fu-wI-j5r" firstAttribute="top" secondItem="DwW-Uf-cUe" secondAttribute="bottom" constant="8" symbolic="YES" id="JQ7-SW-br9"/>
+                            <constraint firstItem="wjM-Xx-imf" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="338" id="V93-ke-wGa"/>
+                            <constraint firstItem="3GV-VZ-fdc" firstAttribute="centerX" secondItem="DwW-Uf-cUe" secondAttribute="centerX" id="eSl-pe-gHK"/>
+                            <constraint firstItem="DwW-Uf-cUe" firstAttribute="centerX" secondItem="5Fu-wI-j5r" secondAttribute="centerX" id="fsz-7l-Quo"/>
+                            <constraint firstItem="DwW-Uf-cUe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="76" id="gHN-ll-vCe"/>
+                            <constraint firstItem="DwW-Uf-cUe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jqQ-5b-Vdg"/>
+                            <constraint firstItem="3GV-VZ-fdc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-4" id="lEO-4l-sHJ"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="wjM-Xx-imf"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-98.641304347826093" y="121.73913043478262"/>
+        </scene>
+    </scenes>
+</document>
